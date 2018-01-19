@@ -1,5 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Home from '../home';
+import About from '../about';
+import Projects from '../projects';
+import Gallery from '../gallery';
 
 class App extends React.Component {
   constructor(props){
@@ -10,7 +15,14 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <h1>Test!</h1>
+        <BrowserRouter>
+          <div>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/projects' component={Projects} />
+            <Route exact path='/gallery' component={Gallery} />
+          </div>
+        </BrowserRouter>
       </div>
       )
   }
