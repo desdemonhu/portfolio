@@ -2,3 +2,23 @@
 @import "_vars.scss";
 @import "_base.scss";
 @import "_layout.scss";
+
+#app {
+    background-color:$background;
+}
+
+#home-border {
+    border-bottom: 40px solid black;
+}
+
+.menu-icon {
+    font-size: 5em;
+}
+
+#intro-text {
+    font-style: italic;
+    font-size: 3em;
+    border-radius: 4px;
+    background-color: $border-color;
+    color: $intro-text;
+}

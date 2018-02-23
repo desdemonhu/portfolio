@@ -12,10 +12,10 @@ class SocialNav extends React.Component {
 
     render() {
         return (
-            <div>
+            <div id="social-nav">
                 <ul>
-                    <li><a href="https://github.com/desdemonhu" target="_blank"><FontAwesomeIcon icon={["fab", "github"]} className="menu-icon" /></a></li>
-                    <li><a href="https://www.linkedin.com/in/raegan-millhollin" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} className="menu-icon" /></a></li>
+                    <li className="menu-icon"><a href="https://github.com/desdemonhu" target="_blank"><FontAwesomeIcon icon={["fab", "github"]}  /></a></li>
+                    <li className="menu-icon"><a href="https://www.linkedin.com/in/raegan-millhollin" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a></li>
                 </ul>
             </div>
         )

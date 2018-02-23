@@ -11,12 +11,12 @@ class TopNav extends React.Component {
 
     render(){
         return(
-            <div>
+            <div id="top-nav">
                 <ul>
-                    <li><a href="/"><FontAwesomeIcon icon="home" className="menu-icon" /></a></li>
-                    <li><a href="/about"><FontAwesomeIcon icon="child" className="menu-icon" /></a></li>
-                    <li><a href="/projects"><FontAwesomeIcon icon="star" className="menu-icon" /></a></li>
-                    <li><a href="/gallery"><FontAwesomeIcon icon="paint-brush" className="menu-icon" /></a></li>
+                    <li className="menu-icon"><a href="/"><FontAwesomeIcon icon="home"  /></a></li>
+                    <li className="menu-icon"><a href="/about"><FontAwesomeIcon icon="child"  /></a></li>
+                    <li className="menu-icon"><a href="/projects"><FontAwesomeIcon icon="star"  /></a></li>
+                    <li className="menu-icon"><a href="/gallery"><FontAwesomeIcon icon="paint-brush"  /></a></li>
                 </ul>
             </div>
         )

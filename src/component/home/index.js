@@ -1,43 +1,44 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TopNav from '../top-nav'
-import SocialNav from '../social-nav'
-import fontawesome from '@fortawesome/fontawesome'
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import { faalignjustify } from '@fortawesome/fontawesome-free-solid'
+import { connect } from 'react-redux';
+
+import TopNav from '../top-nav';
+import SocialNav from '../social-nav';
+import Featured from '../featured';
+import fontawesome from '@fortawesome/fontawesome';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { faalignjustify } from '@fortawesome/fontawesome-free-solid';
 
 class Home extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {
-            togglenav: false
-        }
-    }
-
-    hamburgerMenu = () => {
-        if(this.state.togglenav === false){
-            this.setState({ togglenav: true })
-        } else {
-            this.setState({togglenav: false})
-        }
     }
 
     render() {
         return (
-            <div>
-                <FontAwesomeIcon icon="align-justify" id="hamburger-menu" onClick={this.hamburgerMenu}/>
-                {this.state.togglenav &&
+            <div id="app">
                 <TopNav />
-                }
-                <img src="/src/assets/the_writer_banner.png" />
-                <p id="intro-text">
-                Raegan Millhollin<br />
-                Game & Web Developer
-                </p>
+                <div id="home-border">
+                    <p id="intro-text">
+                        Raegan Millhollin - Game & Web Developer
+                    </p>
+                    <img src="/src/assets/the_writer_banner.png" id="banner"/>
+                </div>
+                <Featured projects={this.props.state.projects}/>
                 <SocialNav />
             </div>
         )
     }
 }
 
-export default Home
+const mapStateToProps = state => {
+    return {
+        state
+    }
+};
+
+const mapDispatchToProps = (dispatch, getState) => ({
+        
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home)
