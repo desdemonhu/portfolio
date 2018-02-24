@@ -3,7 +3,7 @@
         "name": "Cthulhu Bedtime Stories",
         "url": "https://krichey15.github.io/cthulhu-bedtime/index.html",
         "image": "https://krichey15.github.io/cthulhu-bedtime/assets/cthulhu-bedtime-stories-color.png",
-        "description": "<p>Collaborative project as final project for Code Fellows 201 class. A short choose-your-own adventure game where you get to make your own character.</p>",
+        "description": "Collaborative project as final project for Code Fellows 201 class. A short choose-your-own adventure game where you get to make your own character.",
         "language": "JavaScript",
         "published": "07/15/17"
     },
@@ -11,7 +11,7 @@
         "name": "ANDA(Demo)",
         "url": "https://pumpkinpantaloons.itch.io/anda-demo",
         "image": "https://img.itch.zone/aW1hZ2UvMTQ3ODk4LzY3NzMyOS5wbmc=/347x500/%2BkvzjR.png",
-        "description": "<p>A small point-and-click murder mystery game where you get to fight a dragon. Created in GameMaker Studio.</p>",
+        "description": "A small point-and-click murder mystery game where you get to fight a dragon. Created in GameMaker Studio.",
         "language": "GameMaker Studio",
         "published": "06/27/17"
     },
@@ -19,7 +19,7 @@
         "name": "Town Hall Project",
         "url": "https://townhallproject.com/",
         "image": "https://townhallproject.com/Images/THP_logo_inverse.png",
-        "description": "<p>Contributed to codebase, including a helper function for Handlebars and Page.js routing for states.</p>",
+        "description": "Contributed to codebase, including a helper function for Handlebars and Page.js routing for states.",
         "language": "JavaScript",
         "published": "12/09/17"
     },
@@ -27,7 +27,7 @@
         "name": "Mappy-E",
         "url": "https://github.com/TheDevPath/googleMaps-offline-navigator",
         "image": "https://avatars0.githubusercontent.com/u/34627465?s=200&v=4",
-        "description": "<p>Created test suite for routes and Preact components</p>",
+        "description": "Created test suite for routes and Preact components",
         "language": "JavaScript",
         "published": "04/11/18"
     }
