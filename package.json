@@ -2,11 +2,11 @@
   "name": "budget-tracker",
   "version": "1.0.0",
   "description": "Budget Tracker made using React and Redux",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack-dev-server --inline --hot",
-    "build": "webpack"
+    "build": "webpack",
   },
   "repository": {
     "type": "git",
