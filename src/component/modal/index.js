@@ -33,7 +33,7 @@ class Modal extends React.Component {
             <button className="close" onClick={this.props.closeModal}>X</button>
                 <div className="modal-content">
                     <button className="modal-button prev" onClick={this.goBackwards}>&lt;</button>
-                    <img src={this.props.gallery[this.state.currentIndex].image} onClick={this.goForwards} />
+                    <img src={require(this.props.gallery[this.state.currentIndex].image)} onClick={this.goForwards} />
                     <button className="modal-button next" onClick={this.goForwards}>&gt;</button>
                 </div>
             </div>

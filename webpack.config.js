@@ -9,7 +9,7 @@ module.exports = {
     historyApiFallback: true,
   },
   output:{
-    filename: 'bundle.[hash].js',
+    filename: 'bundle.js',
     path: `${__dirname}/build`,
   },
   plugins:[

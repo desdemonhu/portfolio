@@ -31,7 +31,7 @@ class Gallery extends React.Component {
                 <div id="gallery">
                     {this.props.state.pictures.map((picture, index)=> {
                         return (
-                            <img src={picture.thumbnail} className="gallery-picture thumbnail" id={index} key={index} onClick={this.openModal}/>
+                            <img src={require(picture.thumbnail)} className="gallery-picture thumbnail" id={index} key={index} onClick={this.openModal}/>
                         )
                     })}
                     </div>
