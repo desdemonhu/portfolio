@@ -1,7 +1,7 @@
 module.exports = (picture) => {
   return {
-    thumbnail: `../assets/thumbnails/${picture.thumbnail}`,
-    image: `../assets/gallery/${picture.image}`,
+    thumbnail: `https://desdemonhu-portfolio.herokuapp.com/assets/thumbnails/${picture.thumbnail}`,
+    image: `https://desdemonhu-portfolio.herokuapp.com/assets/gallery/${picture.image}`,
     published: new Date(picture.published),
   };
 };
