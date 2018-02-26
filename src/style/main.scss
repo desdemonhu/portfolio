@@ -2,3 +2,72 @@
 @import "_vars.scss";
 @import "_base.scss";
 @import "_layout.scss";
+
+#app {
+    background-color:$background;
+}
+
+.menu-icon {
+    font-size: 5em;
+}
+
+#top-nav, #social-nav {
+    background-color: $background;
+}
+
+#intro-text {
+    font-style: italic;
+    font-size: 3em;
+    border-radius: 4px;
+    background-color: $border-color;
+    color: $intro-text;
+}
+
+#featured-section {
+    background-color: $featured-background;
+    border-top: 40px solid;
+    border-bottom: 40px solid;
+    border-top-color: $border-color;
+    border-bottom-color: $border-color;
+}
+
+.featured-project-text h3{
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+.featured-project-text a {
+    color: $featured-link;
+}
+
+.featured-project-text p{
+    font-size: 2.2em;
+}
+
+.featured-project-button {
+    background-color: $button-color;
+}
+
+.featured-project-button button{
+    font-size: 3.8em;
+    width: 50%;
+    height: 250px;
+    color: $intro-text;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+
+#about-me {
+    background-color: $featured-background;
+}
+
+#about-me h1{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#about-me p {
+    font-size: 1.5em;
+}
