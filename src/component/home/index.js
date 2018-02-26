@@ -22,7 +22,7 @@ class Home extends React.Component {
                     <p id="intro-text">
                         Raegan Millhollin - Game & Web Developer
                     </p>
-                    <img src="../../assets/the_writer_banner.png" id="banner"/>
+                    <img src="../assets/the_writer_banner.png" id="banner"/>
                 </div>
                 <Featured projects={this.props.state.projects}/>
                 <SocialNav />
