@@ -17,6 +17,7 @@ class Home extends React.Component {
     render() {
         return (
             <div id="app">
+             <div id="site-level">
                 <TopNav />
                 <div id="home-border">
                     <p id="intro-text">
@@ -26,6 +27,7 @@ class Home extends React.Component {
                 </div>
                 <Featured projects={this.props.state.projects}/>
                 <SocialNav />
+                </div>
             </div>
         )
     }
