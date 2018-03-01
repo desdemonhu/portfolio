@@ -150,6 +150,12 @@ a {
   margin: 0px;
 }
 
+#site-level {
+  position: relative;
+  margin: auto;
+  max-width: 1000px;
+}
+
 #social-nav,
 #top-nav {
   width: 100%;
@@ -183,18 +189,19 @@ li.menu-icon {
 .featured-project-image {
   width: 25%;
   float: left;
-  padding: 1% 2% 1% 12%;
+  padding: 1% 2% 1% 8%;
 }
 
 .featured-project-image img {
   height: 200px;
-  width: 100%;
+  width: 275px;
 }
 
 .featured-project-text {
   width: 48%;
   display: inline-block;
   padding-top: 6%;
+  padding-left: 2%;
 }
 
 .featured-project-text h3 {
